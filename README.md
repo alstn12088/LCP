@@ -7,19 +7,20 @@ Learhing collaborative policies (LCP) is new problem-solving strategy to tackle 
 ## Paper
 This is official PyTorch code for our paper [Learning Collaborative Policies to Solve NP-hard Routing Problems](https://arxiv.org/abs/2110.13987) which has been accepted at [NeurIPS 2021](https://papers.nips.cc/paper/2021), cite our paper as follows:
 
-
+```
 @inproceedings{kim2021learning,
   title={Learning Collaborative Policies to Solve NP-hard Routing Problems},
   author={Kim, Minsu and Park, Jinkyoo and Kim, Joungho},
   booktitle={Advances in Neural Information Processing Systems},
   year={2021}
 }
-
+```
 
 ## Thanks to
 
 This code is originally implemented based on  , which is source code [Attention Model (AM)] https://github.com/wouterkool/attention-learn-to-route of the paper   [Attention, Learn to Solve Routing Problems!](https://openreview.net/forum?id=ByxBFsRqYm) which has been accepted at [ICLR 2019](https://iclr.cc/Conferences/2019), cite as follows:
 
+```
 @inproceedings{
     kool2018attention,
     title={Attention, Learn to Solve Routing Problems!},
@@ -28,6 +29,7 @@ This code is originally implemented based on  , which is source code [Attention 
     year={2019},
     url={https://openreview.net/forum?id=ByxBFsRqYm},
 }
+```
 
 Our work designed collaborative polices (seeder and reviser), each policy is parameterized with Attention Model (AM), most of code configuration is same, except:
 
