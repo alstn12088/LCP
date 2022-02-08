@@ -7,14 +7,14 @@ Learhing collaborative policies (LCP) is new problem-solving strategy to tackle 
 ## Paper
 This is official PyTorch code for our paper [Learning Collaborative Policies to Solve NP-hard Routing Problems](https://arxiv.org/abs/2110.13987) which has been accepted at [NeurIPS 2021](https://papers.nips.cc/paper/2021), cite our paper as follows:
 
-```
+
 @inproceedings{kim2021learning,
   title={Learning Collaborative Policies to Solve NP-hard Routing Problems},
   author={Kim, Minsu and Park, Jinkyoo and Kim, Joungho},
   booktitle={Advances in Neural Information Processing Systems},
   year={2021}
 }
-``` 
+
 
 ## Thanks to
 
