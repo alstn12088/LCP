@@ -18,7 +18,7 @@ This is official PyTorch code for our paper [Learning Collaborative Policies to 
 
 ## Thanks to
 
-This code is originally implemented based on  , which is source code [Attention Model (AM)] https://github.com/wouterkool/attention-learn-to-route of the paper   [Attention, Learn to Solve Routing Problems!](https://openreview.net/forum?id=ByxBFsRqYm) which has been accepted at [ICLR 2019](https://iclr.cc/Conferences/2019), cite as follows:
+This code is originally implemented based on  , which is source code [Attention Model (AM)] (https://github.com/wouterkool/attention-learn-to-route) of the paper   [Attention, Learn to Solve Routing Problems!](https://openreview.net/forum?id=ByxBFsRqYm) which has been accepted at [ICLR 2019](https://iclr.cc/Conferences/2019), cite as follows:
 
 ```
 @inproceedings{
