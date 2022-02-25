@@ -1,4 +1,4 @@
-# Learning Collaborative Policies to Solve NP-hard Routing Problems (Code will be posted in 2022/02/28 with Pretrained Model)
+# Learning Collaborative Policies to Solve NP-hard Routing Problems (Code will be posted in 2022/03/15 with Pretrained Model)
 
 Learhing collaborative policies (LCP) is new problem-solving strategy to tackle NP-hard routing problem such as travelling salesman problem. LCP uses existing competitive model such as Attention Model (AM). We have two main policies: seeder and reviser. Seeder searches full trajectories trained with proposed scaled entropy regularization. Reviser improves seeder's initial feasible candidate solutions in restricted solution space (i.e., partial solution). 
 
