@@ -36,9 +36,8 @@ Our work designed collaborative polices (seeder and reviser), each policy is par
 * New python file containing slightly modified neural architecture for reviser named "nets/attention_local.py".
 * Modified "net/attention_model.py" to measure entropy of segment policy (see paper for detail).
 * Modified "train.py" to add scaled entropy regularization term. 
-* Modified 'sample_many' function in "functions.py" to modify solution design process with collaborative policies. 
+* Modified 'sample_many' function in "utils/functions.py" to modify solution design process with collaborative policies. 
 * Modified 'eval.py' to modify solution design process.
-* Modified utils/function.py for LCP algorithm in sampling progress (see sample_many function)
 
 
 
