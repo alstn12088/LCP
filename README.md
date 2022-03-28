@@ -96,7 +96,7 @@ Use as
 For LCP star, use as 
 
 ```bash
---revision_len2 20 --revision_len1 10
+--revision_len1 20 --revision_len2 10
 ```
 
 #### Softmax Temperature 
