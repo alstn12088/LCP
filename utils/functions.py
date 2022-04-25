@@ -288,7 +288,7 @@ def sample_many(inner_func, get_cost_func,get_cost_func2, input,opts, batch_rep=
     """
 
     input = do_batch_rep(input, batch_rep)
-    _log_p, pi, _ = inner_func(input)
+    _log_p, pi, _,_ = inner_func(input)
     # input[0] is problem: s, input[1] is encoded problem: h
     problem = input[0]
     cost, _ = get_cost_func(problem, pi)
