@@ -128,7 +128,7 @@ python run.py --alp 2 --graph_size 20 --policy_mode seeder
 Training Reviser (N=10, usually smaller sized than seeder)
 
 ```bash
-python run.py --alp 0 --graph_size 20 --policy_mode reviser
+python run.py --alp 0 --graph_size 20 --policy_mode reviser --problem local
 ```
 
 #### Multiple GPU
