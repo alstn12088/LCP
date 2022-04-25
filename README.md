@@ -62,13 +62,13 @@ python generate_data.py --problem tsp --name test --seed 1234
 ### Evaluation with pretrained model
 To produce solution from best M solutions (M=1280), use
 ```bash
-python eval.py data/tsp/tsp20_test_seed1234.pkl --seeder pretrained_LCP/Seeder/seeder_tsp_20/epoch-99.pt --reviser pretrained_LCP/Reviser/reviser_10/epoch-99.pt --softmax_temperature 2 --width 1280 
+python eval.py --dataset_path data/tsp/tsp20_test_seed1234.pkl --seeder pretrained_LCP/Seeder/seeder_tsp_20/epoch-99.pt --reviser pretrained_LCP/Reviser/reviser_10/epoch-99.pt --softmax_temperature 2 --width 1280 
 ```
 
 #### LCP star
 To use two (can be more, but code must be revised) reviser, use
 ```bash
-python eval.py data/tsp/tsp100_test_seed1234.pkl --seeder pretrained_LCP/Seeder/seeder_tsp_100/epoch-99.pt --reviser pretrained_LCP/Reviser/reviser_20/epoch-99.pt --reviser pretrained_LCP/Reviser/reviser_10/epoch-99.pt --softmax_temperature 2 --width 1280 
+python eval.py --dataset_path data/tsp/tsp100_test_seed1234.pkl --seeder pretrained_LCP/Seeder/seeder_tsp_100/epoch-99.pt --reviser pretrained_LCP/Reviser/reviser_20/epoch-99.pt --reviser pretrained_LCP/Reviser/reviser_10/epoch-99.pt --softmax_temperature 2 --width 1280 
 ```
 #### Number of Reviser Iteration (I)
 
